@@ -1,0 +1,28 @@
+{
+    "name": "ultra/enum-dominant",
+    "type": "library",
+    "description": "Allows you to make one of the enumeration cases the main one.",
+    "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dlsrc/ultra-enum-dominant"
+        }
+    ],
+    "authors": [
+        {
+            "name": "Dmitry Lebedev",
+            "email": "dl@adios.ru",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "Ultra\\Enum\\Dominant\\" : "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.3",
+        "ultra/enum-cases": "^1.0.0"
+    }
+}
