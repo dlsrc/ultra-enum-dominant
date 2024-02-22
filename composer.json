@@ -18,8 +18,7 @@
     ],
     "autoload": {
         "psr-4" : {
-            "Ultra\\Enum\\Dominant\\" : "src/",
-            "Ultra\\Enum\\Dominant\\Api" : "src/api"
+            "Ultra\\Dominant\\" : "src/"
         }
     },
     "require": {

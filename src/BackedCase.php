@@ -1,18 +1,18 @@
 <?php declare(strict_types=1);
 /**
  * (c) 2005-2024 Dmitry Lebedev <dl@adios.ru>
- * This source code is part of the Ultra package core library.
+ * This source code is part of the Ultra library.
  * Please see the LICENSE file for copyright and licensing information.
  */
-namespace Ultra\Enum\Dominant;
+namespace Ultra\Dominant;
 
 /**
- * Реализация интерфейса Ultra\Enum\Dominant\Api\Backed.
- * Расширяет функционал трейта Ultra\Enum\Dominant\Unit реализацию интерфейса
- * Ultra\Enum\Dominant\Api\Unit.
+ * Реализация интерфейса Ultra\Dominant\BackedEnum.
+ * Расширяет функционал трейта Ultra\Dominant\UnitCase реализацию интерфейса
+ * Ultra\Dominant\UnitEnum.
  */
-trait Backed {
-	use Unit;
+trait BackedCase {
+	use UnitCase;
 
 	final public static function getMainValue(): int|string|null {
 		return self::main()->value;

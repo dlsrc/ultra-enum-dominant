@@ -1,16 +1,16 @@
 <?php declare(strict_types=1);
 /**
  * (c) 2005-2024 Dmitry Lebedev <dl@adios.ru>
- * This source code is part of the Ultra package core library.
+ * This source code is part of the Ultra library.
  * Please see the LICENSE file for copyright and licensing information.
  */
-namespace Ultra\Enum\Dominant\Api;
+namespace Ultra\Dominant;
 
 /**
- * Методы расширяющие возможности интерфейса Ultra\Enum\Dominant\Api\Unit,
+ * Методы расширяющие возможности интерфейса Ultra\Enum\Dominant\Unit,
  * добавляют дополнительную функциональность в типизированные перечисления.
  */
-interface Backed extends Unit, \BackedEnum {
+interface BackedEnum extends UnitEnum, \BackedEnum {
 	/**
 	 * Получить скалярное значение основного варианта типизированного перечисления.
 	 * Вернёт целое или строковое значение, либо NULL в случае ошибки.
