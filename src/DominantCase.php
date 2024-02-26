@@ -4,16 +4,14 @@
  * This source code is part of the Ultra package library.
  * Please see the LICENSE file for copyright and licensing information.
  */
-namespace Ultra\Dominant;
-
-use Ultra\Enum\Cases;
+namespace Ultra\Enum;
 
 /**
- * Реализация методов интерфейса Ultra\Dominant\UnitEnum
+ * Реализация методов интерфейса Ultra\Enum\Dominant
  * Метод setMainByName() использует метод getCaseByName() из трейта
  * Ultra\Enum\Cases.
  */
-trait UnitCase {
+trait DominantCase {
 	use Cases;
 
 	public static function getDefaultCase(): self|null {

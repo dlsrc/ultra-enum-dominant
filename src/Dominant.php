@@ -4,13 +4,13 @@
  * This source code is part of the Ultra library.
  * Please see the LICENSE file for copyright and licensing information.
  */
-namespace Ultra\Dominant;
+namespace Ultra\Enum;
 
 /**
  * Интерфейс установливает один из вариантов перечисления в качестве основного варианта,
  * что позволяет использовать это значение в разных частях программы без явного на него указания.
  */
-interface UnitEnum extends \UnitEnum {
+interface Dominant extends \UnitEnum {
 	/**
 	 * Вернуть главный вариант перечисления по умолчанию, либо вернуть NULL в случае ошибки.
 	 * Необходимо, для установки в качестве основного варианта перечисления, если основной

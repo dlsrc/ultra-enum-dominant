@@ -4,15 +4,15 @@
  * This source code is part of the Ultra library.
  * Please see the LICENSE file for copyright and licensing information.
  */
-namespace Ultra\Dominant;
+namespace Ultra\Enum;
 
 /**
- * Реализация интерфейса Ultra\Dominant\BackedEnum.
- * Расширяет функционал трейта Ultra\Dominant\UnitCase реализацию интерфейса
- * Ultra\Dominant\UnitEnum.
+ * Реализация интерфейса Ultra\Enum\BackedDominant.
+ * Расширяет функционал трейта Ultra\Enum\DominantCase реализацию интерфейса
+ * Ultra\Enum\Dominant.
  */
-trait BackedCase {
-	use UnitCase;
+trait BackedDominantCase {
+	use DominantCase;
 
 	final public static function getMainValue(): int|string|null {
 		return self::main()->value;

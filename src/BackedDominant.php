@@ -4,13 +4,13 @@
  * This source code is part of the Ultra library.
  * Please see the LICENSE file for copyright and licensing information.
  */
-namespace Ultra\Dominant;
+namespace Ultra\Enum;
 
 /**
- * Методы расширяющие возможности интерфейса Ultra\Enum\Dominant\Unit,
+ * Методы расширяющие возможности интерфейса Ultra\Enum\Dominant,
  * добавляют дополнительную функциональность в типизированные перечисления.
  */
-interface BackedEnum extends UnitEnum, \BackedEnum {
+interface BackedDominant extends Dominant, \BackedEnum {
 	/**
 	 * Получить скалярное значение основного варианта типизированного перечисления.
 	 * Вернёт целое или строковое значение, либо NULL в случае ошибки.
