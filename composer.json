@@ -1,5 +1,6 @@
 {
     "name": "ultra/enum-dominant",
+    "version": "1.0.0",
     "type": "library",
     "description": "Allows you to make one of the enumeration cases the main one.",
     "license": "MIT",
